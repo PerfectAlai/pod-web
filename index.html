@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="short icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <title>My Pod</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href=""><img src="./img/logo.png" alt="" /></a>
+        <nav class="navbar">
+          <buttton class="nav-close-btn">
+            <ion-icon name="close-circle-outline" ></ion-icon>
+          </buttton>
+
+          <ul class="navbar-list">
+            <li><a href="#home" class="navbar-list">Home</a></li>
+            <li><a href="#features" class="navbar-list">Features</a></li>
+            <li><a href="#overview" class="navbar-list">Overview</a></li>
+            <li><a href="#blog" class="navbar-list">Blog</a></li>
+            <li><a href="#pricing" class="navbar-list">Pricing</a></li>
+            <li><a href="#faq" class="navbar-list">FAQ's</a></li>
+            <li><button class="btn-primary">Get Started</button></li>
+          </ul>
+          
+        </nav>
+        <button class="nav-open-btn">
+          <ion-icon name="grid"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article class="container">
+        <section class="hero" id="home">
+          <div class="hero-content">
+            <h1 class="h1 heo-title">The best audio streaming platform for your devices
+            </h1>
+            <button class="btn-primary">Download Now</button>
+          </div>
+          <figure class="hero-banner"></figure>
+        </section>
+
+        <section class="download">
+          <ul class="download-list">
+            <li>
+              <a href="#" class="download-link">
+              <ion-icon name="logo-apple"></ion-icon>
+              <span>Free download for iPhones</span>
+            </a>
+          </li>
+          
+          <li><img src="./img/music.png" alt=""></li>
+          <li>
+            <a href="#" class="download-link">
+              <ion-icon name="logo-android"></ion-icon>
+              <span>Free download for Android</span>
+            </a>
+          </li>
+          </ul>
+        </section>
+
+      </article>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
