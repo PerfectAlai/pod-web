@@ -369,6 +369,7 @@ footer .container {
   border-top: 1px solid hsla(240, 30%, 83%, 0.1);
 }
 
+
 @media (min-width: 1024px) {
   .navbar {
     position: static;
