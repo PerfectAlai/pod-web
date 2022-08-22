@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="img/x-icon" />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
     <title>My Pod</title>
   </head>
   <body>
     <header>
       <div class="container">
         <a href=""> <img src="./img/logo.png" alt="" /> </a>
-        <nav class="navbar">
-          <button class="nav-close-btn">
+
+        <nav class="navbar" data-navbar>
+          <button class="nav-close-btn" data-nav-close-btn>
             <ion-icon name="close-outline"></ion-icon>
           </button>
+
           <ul class="navbar-list">
             <li><a href="#home" class="navbar-link">Home</a></li>
             <li><a href="#features" class="navbar-link">Features</a></li>
@@ -26,11 +30,12 @@
             <li><button class="btn-primary">Get Started</button></li>
           </ul>
         </nav>
-        <button class="nav-open-btn">
+        <button class="nav-open-btn" data-nav-open-btn>
           <ion-icon name="menu-outline"></ion-icon>
         </button>
       </div>
     </header>
+
     <main>
       <article class="container">
         <section class="hero" id="home">
@@ -42,6 +47,7 @@
           </div>
           <figure class="hero-banner"></figure>
         </section>
+
         <section class="download">
           <ul class="download-list">
             <li>
@@ -60,9 +66,7 @@
           </ul>
         </section>
 
-
         <!-- features section -->
-        <section></section>
         <section class="features" id="features">
           <ul class="features-list">
             <li class="features-item">
@@ -80,14 +84,14 @@
               </p>
             </li>
           </ul>
-          <figure class="figure-banner">
+          <figure class="feature-banner">
             <img
               class="feature-banner-bg"
-              src="./img/feature-banner-bg.png"
+              src="./img/feature-banner-bg.png  "
               alt=""
             />
 
-            <img class="banner-img" src="/img/feature-banner.png" alt="" />
+            <img class="banner-img" src="./img/feature-banner.png" alt="" />
           </figure>
 
           <ul class="features-list">
@@ -148,7 +152,6 @@
             </div>
           </div>
         </section>
-
 
         <!-- blog -->
 
@@ -212,7 +215,6 @@
       </article>
     </main>
 
-
     <footer>
       <div class="container">
         <div class="footer-brand">
@@ -223,29 +225,27 @@
           <p>Follow Us On:</p>
           <ul class="social-list">
             <li>
-              <a href="#">
+              <a href="#" class="social-link">
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
           </ul>
         </div>
-
-    
 
         <div class="footer-link-box">
           <ul class="footer-list">
@@ -273,26 +273,18 @@
             <a href="#"><img src="./img/footer-1.png" alt=""></a>
             <a href="#"><img src="./img/footer-2.png" alt=""></a>
           </div>
-
+          
         </div>
       </div>
 
-
-      <p class="copyright">&copy: Copyrights Perfect Semenyo. All rights reserved</p>
+      <p class="copyright">&copy: Copyrights Spider Hussle. All rights reserved</p>
     </footer>
-
 
     <a href="#top" class="go-top">
       <ion-icon name="chevron-up"></ion-icon>
     </a>
 
-    
-    <!-- <iframe width="500" height="300"
-    src="https://www.youtube.com/embed/zoGBAIunXGU"
-    frameborder="0" allowfullscreen> -->
-
-
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
 </html>
