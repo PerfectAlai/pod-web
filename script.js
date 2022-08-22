@@ -39,3 +39,15 @@ navbarOpenBtn.addEventListener("click", function () {
 navbarCloseBtn.addEventListener("click", function () {
   elemToggleFunc(navbar);
 });
+
+// go to top button
+const goTopBtn = document.querySelector("[data-go-top]");
+
+// scroll to the top of the page
+window.addEventListener("scroll", function () {
+  if (this.window.scrollY >= 500) {
+    goTopBtn.classList.add("active");
+  } else {
+    goTopBtn.classList.remove("active");
+  }
+});
